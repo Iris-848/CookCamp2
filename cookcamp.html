@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>CookCamp</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/css/modaal.min.css" />
+    <link rel="stylesheet" href="css/cookcamp.css">
+</head>
+<body>
+    <header>
+        <a href="#"><img src="img/logo.png" alt="ロゴ画像" class="logo"></a>
+        <div class="carousel">
+            <a href="#"><img src="img/key_visual.jpg" alt="カルーセル画像1"></a>
+            <a href="#"><img src="img/key_visual2.jpg" alt="カルーセル画像2"></a>
+            <a href="#"><img src="img/key_visual3.jpg" alt="カルーセル画像3"></a>
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            <img src="img/icon.png" alt="アイコン画像">
+            <h1>新着レシピ</h1>
+        </div>
+        <section>
+            <a href="#modal1" class="show">
+                <img src="img/image01.jpg" alt="サムネイル画像1">
+                <p>季節の彩り野菜</p>
+            </a>
+            <div id="modal1">
+                <img src="img/image08.jpg" alt="モーダル画像1">
+                <p>様々な食材を使用し作り上げた色とりどりの前菜はテーブルをカラフルに彩ります♪</p>
+                <button id="share1">シェア</button>
+            </div>
+            <a href="#modal2" class="show">
+                <img src="img/image02.jpg" alt="サムネイル画像2">
+                <p>簡単野菜スープ</p>
+            </a>
+            <div id="modal2">
+                <img src="img/image09.jpg" alt="モーダル画像2">
+                <p>柔らかく蒸したあとはホイッパーで混ぜるだけの簡単レシピです♪かぼちゃは、ビタミンやミネラルが豊富なので美容や冷え性に良いですよ♪</p>
+                <button id="share2">シェア</button>
+            </div>
+            <a href="#modal3" class="show">
+                <img src="img/image03.jpg" alt="サムネイル画像3">
+                <p>ヘルシー米粉パン</p>
+            </a>
+            <div id="modal3">
+                <img src="img/image10.jpg" alt="モーダル画像3">
+                <p>米粉を使ったさっくりとした軽い食感のパンです♪米粉は日本の主食のお米で作られており、ヘルシーで口当たりもいいですよ♪</p>
+                <button id="share3">シェア</button>
+            </div>
+            <a href="#modal4" class=show>
+                <img src="img/image04.jpg" alt="サムネイル画像4">
+                <p>ぷりぷりエビ料理</p>
+            </a>
+            <div id="modal4">
+                <img src="img/image11.jpg" alt="モーダル画像4">
+                <p>エビがサラダやスープ、ごはんなどに入っていると、テンションが上がりますよね♪ただ、エビは意外に調理が難しいという声も...。実はあるテクニックを使うだけでエビがプリップリに仕上がっちゃうんです♪</p>
+                <button id="share4">シェア</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <small>Copyright &copy; CodeCamp All Rights Reserved</small>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" 
+        integrity="sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/js/modaal.min.js"
+        integrity="sha256-e8kfivdhut3LQd71YXKqOdkWAG1JKiOs2hqYJTe0uTk=" crossorigin="anonymous"></script>
+    <script src="js/cookcamp.js"></script>
+</body>
+</html>

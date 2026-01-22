@@ -1,0 +1,81 @@
+body {
+    min-width: 1280px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.carousel {
+    text-align: center;
+}
+.carousel img {
+    width: 100%;
+}
+.slick-prev:before, 
+.slick-next:before {
+    color: #000;
+}
+.slick-prev {
+    left: 0;
+    z-index: 1;
+    padding-left: 30px;
+}
+.slick-next {
+    right: 0;
+    padding-right: 50px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: solid 2px #d1c9c5;
+    margin: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: #614536;
+}
+.title img {
+    width: 20px;
+}
+.logo {
+    margin: 10px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px;
+    margin-bottom: 0;
+}
+section img {
+    width: 100%;
+}
+.show {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+}
+p {
+    margin: 10px 0;
+    width: 100%;
+}
+#modal1, #modal2, #modal3, #modal4 {
+    display: none;
+}
+.modaal-content-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.modaal-content-container img {
+    width: 100%;
+}
+footer {
+    padding: 5px;
+    margin-top: 10px;
+    border-top: solid 1px #d2d2d2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
